@@ -5,6 +5,8 @@ services:
     build: ./haproxy/.
     ports:
      - '8080:8080'
+     - '443:443'
+
 
   nginx1:
     build: ./nginx1/.
